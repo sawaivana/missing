@@ -1,0 +1,325 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+.archive {
+    position: relative;
+    cursor: pointer;
+}
+
+
+.inputs {
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 70px;
+    margin-left: 70px;
+    font-size: 30px;
+    justify-content: flex-start;
+    font-family: var(--font-goozee-outline);
+}
+
+.natural {
+    position: relative;
+    cursor: pointer;
+}
+
+.inputs1 {
+    width: 150px;
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-size: 30px;
+    box-sizing: border-box;
+    font-family: var(--font-goozee-outline);
+}
+
+.artificial {
+    position: relative;
+    cursor: pointer;
+}
+
+.inputs2 {
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 60px;
+    font-family: var(--font-goozee-outline);
+}
+
+.diary1{
+    position: relative;
+    display: inline-block;
+    min-width: 103px;
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+}
+
+.diary1:hover {
+  color: inherit; 
+  text-decoration: none;
+}
+
+.inputs3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-family: var(--font-goozee-outline);
+}
+
+/* .watch {
+    position: relative;
+    display: inline-block;
+    min-width: 117px;
+    cursor: pointer;
+}
+
+.inputs4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: var(--font-goozee-outline);
+}
+*/
+.listenlink {
+  margin: 0;
+  align-self: stretch;
+  height: 37px;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: var(--font-goozee-outline);
+  flex-shrink: 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  margin-left: 80px;
+  position: relative;
+  cursor: pointer;
+
+}
+
+.listen {
+  color: black;
+  text-decoration: none;
+}
+
+.listen:hover {
+  color: inherit; /* Keeps the text color black on hover */
+  text-decoration: none; /* Removes the underline on hover */
+}
+
+/*.sawaivanaimg1 {
+  height: ;
+  width: ;
+  object-fit: cover;
+}
+*/ 
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  top: 1em;
+  left: 11em;
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 10px;
+  margin-left: 80px;
+  font-family: var(--font-goozee-outline);
+  position: relative;
+  cursor: pointer;
+}
+
+.contact1:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contact1{
+  color: black;
+  text-decoration: none;
+}
+
+.info-box,
+.inputs-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.inputs-parent{
+    gap: 43px;
+}
+
+.info-box {
+    padding: 0 var(--padding-8xl);
+    box-sizing: border-box;
+}
+
+.miss-information{
+    flex: 1;
+    position: relative;
+    font-size: 140px;
+    font-family: var(--font-goozee-outline);
+    color: black;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.miss-information-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 50px;
+    max-width: 115%;
+    flex-shrink: 0;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+.miss-information-all {
+    position: relative;
+}
+
+.miss-information-all-rights-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    margin-left: 100px;
+    font-family: var(--font-terminal-grotesque);
+}
+
+.definitions {
+  align-self: stretch;
+  position: relative;
+  font-family: var(--font-terminal-grotesque);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 10px;
+  margin-left: 60px;
+  font-size: 50px;
+}
+
+.tv-1 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 44px 57px var(--padding-8xl);
+    box-sizing: border-box;
+    gap: 12px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-17xl);
+    color: var(--color-black);
+    font-family: var(--font-goozee);
+}
+
+@media screen and (max-width: 1200px) {
+    .inputs-parent {
+      flex-wrap: wrap;
+    }
+    .miss-information-wrapper {
+      padding-bottom: 938px;
+      box-sizing: border-box;
+    }
+    .tv-1 {
+      padding-left: var(--padding-9xl);
+      padding-right: var(--padding-9xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .archive,
+    .artificial,
+    .diary,
+    .natural,
+    .watch {
+      font-size: var(--font-size-10xl);
+    }
+    .miss-information-wrapper {
+      padding-bottom: 610px;
+      box-sizing: border-box;
+}
+
+.miss-information-all {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .inputs-parent {
+    gap: 21px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .archive,
+  .artificial,
+  .diary,
+  .natural,
+  .watch {
+    font-size: var(--font-size-3xl);
+}
+  .miss-information-wrapper {
+    padding-bottom: 396px;
+    box-sizing: border-box;
+}
+}
+
+:root {
+    /*fonts hopefully*/
+    --font-goozee-outline: "Goozee Outline";
+}
+
+:root {
+    --font-terminal-grotesque: "Terminal Grotesque";
+}
+
